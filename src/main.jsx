@@ -5,6 +5,7 @@ import App from './App.jsx'
 import NoPage from './components/NoPage.jsx';
 import './index.css'
 import Admin from './components/Admin.jsx';
+import Menu from './components/Menu.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='/' element={<App/>}/>
       <Route path='/*' element={<NoPage/>}/>
       <Route path='/admin' element={<Admin/>}></Route>
+      <Route path='/menu/:name' element={<Menu/>}/>
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
 )
