@@ -1,15 +1,17 @@
 .backgroundImage {
     object-fit:fill;
+    background-repeat:repeat-y;
 }
 
 
 .overlay{
-    background-color:#172554;
+    background-color:#111827;
     width:100%;
     height:100%;
     top:0px;
     left:0px;
     z-index:1000;
+    position: absolute;
 }
 
 .menuItem{
