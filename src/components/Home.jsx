@@ -37,6 +37,12 @@ export default function Home() {
             </a>
           </Reveal>
 
+          <Reveal>
+            <a href="/menu/contentsoguksicakicecekler">
+              <img src="/media/soguksicakicecekler.png" className={styles.menuItem} alt="" />
+            </a>
+          </Reveal>
+
         </div>
 
       </div>

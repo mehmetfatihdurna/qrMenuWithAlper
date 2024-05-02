@@ -13,6 +13,7 @@ export default function Reveal({ children }) {
     useEffect(() => {
         if (isInView) {
             mainControls.start("visible");
+            console.log(isInView);
         }
 
     }, [isInView]);
